@@ -3,14 +3,20 @@
     background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(79, 175, 159, 1) 51%, rgba(95, 252, 70, 1) 100%);
     height: 600px;
     width: auto;
-    margin-right: 80px;
-    margin-left: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bolder;
+    margin-left: 100px;
+}
+.logo a{
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 .navigation {
@@ -51,17 +57,65 @@
     height: auto;
     width: 600px;
 }
+figcaption{
+    color: #E5E7EB;
+    font-size: 18px;
+}
 button{
     background-color: #3882F6;
     color: #E5E7EB;
-    width: 150px;
+    width: 120px;
+    height: 55px;
+    border-radius: 15px;
 }
 .part-Bcontainer h1{
     font-size: 48px;
     font-weight:bolder;
     color: #F9FAF8;
 }
+.part-Bcontainer p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.section2-container p{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.activist-list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.activist-list div{
+    height: auto;
+    width: 250px;
 
+}
+.activist-list img{
+    border-radius: 15px;
+    height: auto;
+    width: 100%;
+}
+.activist-list figcaption{
+    color: #1F2937;
+    font-size: 18px;
+}
 .footer {
-    background-color: #1F2937;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(79, 175, 159, 1) 51%, rgba(95, 252, 70, 1) 100%);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.footer p{
+    text-align: center;
+    color: #E5E7EB;
+    font-size: 18px;
+    
 }
